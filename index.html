@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Portal </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="pop.js"></script>
+</head>
+<body>
+		
+	<header>
+		<div class="logo-container">
+		  <img src="./image/finallllll.png" alt="Company Logo">
+		  <div class="links">
+			<nav>
+				<ul>
+				  <li><a href="addjob.html">Post job</a></li>
+				  <li class="dropdown">
+					<a href="#">Contact</a>
+					<ul class="dropdown-content">
+					  <li><a href="mailto:shahinsaifi0411@gmail.com">Email</a></li>
+					</ul>
+				  </li>
+				  <li><a href="logino.html" id="logout-btn">Logout</a></li>
+				</ul>
+			</nav>
+		  </div>
+		</div>
+	  </header>
+
+	  <section id="section1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+		
+		<div class="top-box">
+		   <h2><span id="move-text1">Your First <span id="move-text11">Step</span></span></h2>
+		   <h2><span id="move-text2">Towards<span id="move-text22">Self-reliance...</span></span></h2>
+		</div>
+	 </section>
+
+	<main>
+
+		<section>
+			<form>
+				<label for="job-title">Job Title:</label>
+				<input type="text" id="job-title" name="job-title" placeholder="e.g. Househelp">
+
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location" placeholder="e.g. Delhi">
+
+				<button type="submit">Search Jobs</button>
+			</form>
+			<!-- add search results here -->
+			<ul id="search-results">
+				<!-- search results will be added dynamically using JavaScript -->
+			</ul>
+		</section>
+
+		
+		<section>
+			<div class="banner-box">
+				<div class="image-container">
+				  <img src="./image/men.png" alt="Job Image">
+				</div>
+				<div class="column left">
+					<h1>House Help</h1>
+					<p>Salary: Rs 5,000					</p>
+					<p>Time Duration: 1-2hrs(All weekdays)					</p>
+					<p>Experience: 1yr	</p>
+					<p>Location: Kashmere Gate, New Delhi </p>
+					<p>Phone no:9875634567</p>
+		
+				</div>
+				 
+				  <div class="column right">
+					
+					<button class="btn" onclick="HopenDialog(myDialog)">Details</button>
+
+                 <div id="myDialog" class="dialog">
+                  <div class="dialog-content">
+                   <span class="close" onclick="HcloseDialog(myDialog)">&times;</span>
+                   <h3>Job Description</h3>
+	               <ul>
+						<li>Cleaning and maintenance of the house (vacuuming, dusting, and mopping floors)</li>
+						<li>Cleaning of 2 bathrooms, 1 kitchen and 3 rooms</li>
+						<li>Should also do the dishes and kitchenware</li>
+						<li>Running some basic errands like grocery shopping or picking up dry cleaning</li>
+						<li>Occasionally preparing meals or assisting with meal preparation</li>
+					</ul>
+                  </div>
+                 </div>
+				</div>
+				  
+			</div>
+		</section>
+		<section>
+			<div class="banner-box">
+				<div class="image-container">
+				  <img src="./image/women.png" alt="Job Image">
+				</div>
+				<div class="column left">
+					<h1>Driver</h1>
+					<p>Salary: Rs 10,000					</p>
+					<p>Time Duration: 2-4hrs(All weekdays)</p>
+					<p>Experience: 1-2yrs(necessary)					</p>
+					<p>Location: Rajender Nagar, New Delhi </p>
+					<p>Phone no:9875634567</p>
+				</div>
+				 
+				  <div class="column right">
+					
+					<button class="btn" onclick="DopenDialog(drivermyDialog)">Details</button>
+
+                 <div id="drivermyDialog" class="dialog">
+                  <div class="dialog-content">
+                   <span class="close" onclick="DcloseDialog(drivermyDialog)">&times;</span>
+                   <h3>Job Description</h3>
+				   <ul>
+					We are seeking a responsible and experienced driver to operate company vehicles and transport goods or passengers to their designated locations safely and efficiently. The driver will be responsible for maintaining the upkeep of the vehicle, ensuring compliance with traffic and safety regulations, and communicating effectively with both company personnel and customers.
+				   </ul>
+				   <h4>Duties and Responsibilities:	</h4>
+				   <ul>
+					<li>Operate company vehicles in a safe and efficient manner, following all traffic and safety regulations</li>
+					<li>Should always be punctual</li>
+					<li>Maintain the cleanliness and upkeep of the vehicle, including regular cleaning.</li>
+					<li>Report any vehicle defects or issues to management promptly</li>
+					<li>Adhere to company policies and procedures, including those related to safety, security, and confidentiality</li>
+				</ul>
+				<h4>Requirements:</h4>
+				<ul>
+					<li>Valid driver's license and a clean driving record</li>
+					<li>Prior experience as a driver, preferably in a commercial or professional setting</li>
+					<li>Ability to operate and maintain company vehicles safely and effectively</li>
+					<li>Knowledge of traffic and safety regulations</li>
+					<li>Availability to work flexible hours and occasional weekends or holidays</li>
+				</ul>
+                  </div>
+                 </div>
+				</div>
+				  
+			</div>
+		</section>
+		<section>
+			<div class="banner-box">
+				<div class="image-container">
+				  <img src="./image/women2.png" alt="Job Image">
+				</div>
+				<div class="column left">
+					<h1>Gardener</h1>
+					<p>Salary: Rs 4,000</p>
+					<p>Time Duration: 1hrs(All weekdays)</p>
+					<p>Experience: 2-3yr</p>
+					<p>Location: Nasik, Mumbai </p>
+					<p>Phone no:9875634567	</p>
+		
+				</div>
+				 
+				  <div class="column right">
+					
+					<button class="btn" onclick="GopenDialog(gardenermyDialog)">Details</button>
+
+                 <div id="gardenermyDialog" class="dialog">
+                  <div class="dialog-content">
+                   <span class="close" onclick="GcloseDialog(gardenermyDialog)">&times;</span>
+                   <h3>Job Description</h3>
+	               <ul>
+					<li>Planning and designing garden layouts, including plant selection and arrangement.</li>
+					<li>Planting and maintaining gardens, including watering, fertilizing and weeding.</li>
+					<li>Monitoring and controlling pest infestations and plant diseases.</li>
+					<li>Installing and maintaining irrigation systems.</li>
+					<li>Operating and maintaining gardening equipment, such as lawn mowers, leaf blowers, and hedge trimmers.</li>
+					<li>Managing composting and recycling of yard waste.</li>
+					<li>Harvesting fruits and vegetables from edible gardens.</li>
+				</ul>
+                  </div>
+                 </div>
+				</div>
+				  
+			</div>
+		</section>
+		<section>
+			<div class="banner-box">
+				<div class="image-container">
+				  <img src="./image/men2.png" alt="Job Image">
+				</div>
+				<div class="column left">
+					<h1>Carpenter</h1>
+					<p>Salary: Rs 5,000					</p>
+					<p>Time Duration: 3-5 hrs(for 4-5 days)</p>
+					<p>Experience: 1-2yr</p>
+					<p>Location: Nasik, Mumbai</p>
+					<p>Phone no:9875634567</p>
+		
+				</div>
+				 
+				  <div class="column right">
+					
+					<button class="btn" onclick="HHopenDialog(househelper)">Details</button>
+
+                 <div id="househelper" class="dialog">
+                  <div class="dialog-content">
+                   <span class="close" onclick="HHcloseDialog(househelper)">&times;</span>
+                   <h3>Job Description</h3>
+	               <ul>
+					<li>Measuring and marking cutting lines on materials using rulers, squares, and marking gauges.</li>
+					<li>Cutting and shaping materials using hand and power tools, such as saws, chisels, drills, and sanders.</li>
+					<li>Joining materials together using nails, screws, bolts, or adhesives.</li>
+					<li>Installing structures, such as walls, roofs, and decks, using framing techniques.</li>
+					<li>Installing fixtures, such as cabinets, countertops, and trim, using hand and power tools.</li>
+					<li>Repairing and renovating structures and furniture, including replacing damaged parts and refinishing surfaces.</li>
+					<li>Maintaining tools and equipment, ensuring they are in good working condition.</li>
+					<li>Following safety procedures and regulations to ensure a safe and productive work environment.</li>
+				  </ul>
+                  </div>
+                 </div>
+				</div>
+				  
+			</div>
+		</section>
+	</main>
+
+	<!-- <footer>
+		<p>&copy; fooooooter</p>
+	</footer> -->
+</body>
+</html>

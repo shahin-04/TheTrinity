@@ -1,0 +1,195 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+header .logo-container img {
+    width: 300px; /* specify the width of the image */
+    height: 51px; /* automatically adjust the height */
+    float: left;
+  }
+
+.hero
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("image/logbgfinallll.png");
+    background-size: cover;
+    position: relative;
+    padding-top: 46px;
+}
+
+.form-box{
+    width: 340px;
+    height: 410px;
+    position: relative;
+    right: 520px;
+    bottom: 70px;
+    margin: 12% auto;
+    background: linear-gradient(to right, #9e9f9e,#EBE9E9);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #24abff1f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 14px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #9aefd5,#9B9D9C);
+    border-radius: 30px;
+    transform: .5s;
+}
+.input-group{
+    top: 160px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    color: #656565;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #656565;
+    color: #656565;
+    outline: none;
+    background: transparent;
+
+}
+
+.submit-btn{
+    background-color: #007bff;
+    color: rgb(241, 241, 241);
+    width: 85%;
+    padding: 12px 24px;
+    padding-top: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 4%;
+    background: linear-gradient(to right,#9aefd5,#9B9D9C);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0px;
+    color: #656565;
+}
+span{
+    color: #656565;
+}
+
+#move-text1 {
+    position: relative;
+    right: 100px; 
+    margin-bottom: 20px;
+    font-size: 40px;
+    bottom: px;
+    color: #ffffff;
+}
+
+#move-text11 {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #56DBB3;
+  }
+  
+  #move-text2 {
+    position: relative;
+    margin-top: 20px;
+    right: 20px;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  #move-text22 {
+    position: relative;
+    left: 10px; 
+    font-size: 34px;
+    color: #56DBB3;
+  }
+
+  #hindi {
+    padding: 40px;
+    position: relative;
+    right: 50px; 
+    margin-bottom: 10px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+#login{
+    left: 45px;
+}
+#signup{
+    left: 380px;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    float: left;
+    width: 400px;
+    position: relative;
+    left: 650px;
+    top: 90px;
+    bottom: 40px;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: start;
+    width: 500;
+    font-style: normal;
+    padding-top: 8px;
+    padding-left:50px;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: start;
+    padding-left:50px;
+    width: 420;
+    font-style: normal;
+    color: #fffefc;
+    padding-top: 20px;
+    font-size: 20px;
+}
+a {
+    color: rgb(255, 255, 255); /* set the color of the link */
+    text-decoration: none; /* remove underline */
+    font-weight: 20;
+    font-size: 16;
+  }
+  
+  a:hover {
+    color: rgb(53, 4, 121); /* set the color of the link on hover */
+    font-weight: 20;
+  }

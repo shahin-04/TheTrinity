@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Login And Registeration Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+		<div class="logo-container">
+			<img src="./image/finallllll.png" alt="Logo Image">
+		  </div>
+	</header>
+    <div class="hero">
+        <div class="text">
+            <div class="top-box">
+		   <h2><span id="move-text1">Your First <span id="move-text11">Step</span></span></h2>
+		   <h2><span id="move-text2">Towards<span id="move-text22">Self-reliance...</span></span></h2>
+		   </div><span id="hindi">
+            <p><b>काम करो, हिम्मत से जीयो,</b></p>
+            <p><b>नए सपने देखो, आगे बढ़ो।</b></p>
+            <p><b>मजबूर ने कभी ना रोका है,</b></p>
+            <p><b>अब खुद को ताकतवर बनाओ, सफला पाओ।</b></p>
+        </span>
+        </div>
+        <div class="form-box">
+            <div class="button-box">
+               <div id="btn"></div>
+               <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+               <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+            </div>
+            <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">
+                <a href="file:///E:/VS%20Code/chatgpt/ind.html?job-title=&location=India#">Log In</a></button>
+            </form>
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="Email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <form id="submit" class="input-group">
+                <button type="submit" class="submit-btn">Sign Up</button>
+                </form>
+                </form>
+        </div>
+    </div>
+
+    <script>
+        var x= document.getElementById("login");
+        var y= document.getElementById("signup");
+        var z= document.getElementById("btn");
+        function signup(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+    </script>
+</body>
+</html>
+

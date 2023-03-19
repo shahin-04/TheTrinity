@@ -1,0 +1,450 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo-container img {
+    width: 300px; /* specify the width of the image */
+    height: 250; /* automatically adjust the height */
+    float: left;
+  }
+  .links {
+    float: right;
+    /* margin-right: 40px; */
+    padding: 10px;
+    padding-left: 660px;
+  }
+  .links a {
+    margin-left: 10px;
+  }
+  /* Style the contact button */
+.header-btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Style the dropdown button */
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  display: inline-block; /* Display button inline */
+  vertical-align: middle; /* Align button vertically */
+  
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+
+  /* header h1 {
+    margin: 10;
+    font-weight: 100;
+  }
+  header h1 {
+    margin: 0;
+  } */
+  
+  /* header nav ul {
+    display: flex;
+  }
+  
+  header nav li {
+    margin-left: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+  } */
+  
+  /* Main */
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  section#section1 {
+    background-image: url("image/itissss.png");
+    background-size: cover;
+    /* background-position: center center; */
+    background-position-x:center ;
+    background-position-y: 650%;
+    padding-bottom: 80px;
+  }
+  
+  /* Style for the top-box */
+  .top-box {
+    margin-top: 10p1;
+    padding: 46px ;
+    width: fit-content;
+  }
+  
+  /* Style for the heading */
+  .top-box h2 {
+    margin-top: 30px;
+    font-size: 36px;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style for the paragraph */
+  /* .top-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  } */
+  #move-text1 {
+    position: relative;
+    left: 140px; 
+    margin-bottom: 10px;
+    font-size: 56px;
+    color: #ffffff;
+  }
+  #move-text11 {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 56px;
+    color: #56DBB3;
+  }
+  
+  #move-text2 {
+    position: relative;
+    left: 300px; 
+    font-size: 56px;
+    color: #ffffff;
+  }
+  #move-text22 {
+    position: relative;
+    left: 10px; 
+    font-size: 56px;
+    color: #56DBB3;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Featured jobs */
+  
+  /* Search jobs */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 46px;
+  }
+  
+  form label {
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  form input[type=text] {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  form button[type=submit] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button[type=submit]:hover {
+    background-color: #444;
+  }
+  
+  #search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .search-result {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .search-result h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .search-result p {
+    margin-bottom: 5px;
+  }
+  
+  
+  .view-jobs-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:
+  }
+  .banner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #EBE9E9;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .banner-box h1 {
+    margin-left: 28px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px #2fbc92; /* Add a 1-pixel border with color #56DBB3 */
+    -webkit-text-fill-color: #56DBB3;
+  }
+  
+  .image-container {
+    width: 300px;
+    height: 170px;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    background-position: center left;
+    margin-bottom: 40px;
+
+  }
+  
+  .info-container {
+    flex-grow: 1;
+  }
+
+  .column {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+    margin-top: 60px;
+
+  }
+  h3 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+  }
+
+  h4 {
+    margin-left: 26px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+
+  p {
+    margin: 5px 0;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+  }
+  ul {
+    list-style: disc;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  ul li {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  /* header button */
+  a {
+    display: inline-block;
+    padding: 10px 10px ;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    background-color: #56DBB3;
+  }
+  
+  .logo-container img {
+    width: 10%;
+    height: 10%;
+  }
+  .company-name cn {
+    padding: 10px 0px 0px 20px;
+    margin-inline-start: auto;
+    width: 10%;
+    height: 10%;
+  }
+
+  /* Styling for button */
+.btn {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 64px;
+  margin-right: -7px;
+  font-weight: 200;
+}
+
+/* Styling for dialog box */
+.dialog {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-content {
+  background: linear-gradient(to right, #83f9d6,#bce5ff);
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: auto;
+  text-align: left;
+  border-radius: 16px;
+}
+
+.close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(199, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Style the dropdown button */
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+  position: relative;
+}
+
+nav li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 0px;
+}
+
+/* nav li:hover > ul {
+  display: block;
+} */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.dropdown-content li {
+  margin: 0;
+  margin-right: 8px;
+}
+
+.dropdown-content li a {
+  padding: 5px;
+}
+
+.dropdown-content li:hover {
+  background-color: #fffdfd;
+}
